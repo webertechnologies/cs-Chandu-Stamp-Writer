@@ -64,6 +64,9 @@ main .screen .content .mini-icons ul li {
   list-style: none;
   margin-right: 1em;
 }
+main .screen .content .mini-icons ul li a {
+  text-decoration: none;
+}
 main .screen .content .mini-icons ul li.btn {
   background: #f9b9a5;
   box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.2);
@@ -74,10 +77,14 @@ main .screen .content .mini-icons ul li.btn {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+}
+main .screen .content .mini-icons ul li.btn a {
   color: #ffffff;
 }
 main .screen .content .mini-icons ul li.white {
   background: #fffefe;
+}
+main .screen .content .mini-icons ul li.white a {
   color: #000000;
 }
 main .screen .content .main-card {
@@ -133,6 +140,8 @@ main .screen .content .main-card .description-wrap ul li p {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+}
+main .screen .content .main-card .description-wrap ul li p a {
   color: rgba(0, 0, 0, 0.8);
 }
 main .screen .content .main-card .description-wrap p.quote {
