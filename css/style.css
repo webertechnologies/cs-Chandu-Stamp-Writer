@@ -143,6 +143,7 @@ main .screen .content .main-card .description-wrap ul li p {
 }
 main .screen .content .main-card .description-wrap ul li p a {
   color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
 }
 main .screen .content .main-card .description-wrap p.quote {
   font-family: "Montserrat";
